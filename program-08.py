@@ -3,7 +3,12 @@
 """
 Created on Mon Mar 30 14:20:37 2020
 
-@author: lheusing
+@author: lheusing 
+
+using "WabashRiver_DailyDischarge_20150317-20160324.txt" create 3 pdf figures of daily mean
+monthly mean and the top 10 values for daily flow on the same x axis for the plots. 
+use pandas read_table to import the data into DataFrames and go from there.
+Reference PandasDatesDemo.py for useful tips /examples of how to do this
 """
 import matplotlib.pyplot as plt
 import numpy as np
